@@ -1,0 +1,226 @@
+body {
+    font-family: "din-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    padding: 5px 0;
+    position:fixed;
+    z-index: 1000;
+}
+
+header img {
+    position: absolute;
+    width: 130px;
+    left: 20px;
+    bottom: 20px;
+}
+
+nav {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.letswork a {
+    color: #FF5F5F;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    color: rgb(56, 99, 148);
+    transition: all 0.5s ease;
+}
+
+
+#hero {
+    width: 100%;
+    height: 800px;
+    background-image: url(images/DSC_0013.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600%;
+    height: 30%;
+    margin-top: 3%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#hero h1 {
+    z-index: 1; 
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+}
+
+#hero a{
+    z-index: 1;
+    font-size: 2em;
+    color:#FF5F5F;
+    margin-top: 0px;
+    text-decoration: none;
+}
+#hero a:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#content{
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding-top: 5%;
+    text-decoration: none;
+
+}
+
+.Works, .Photography, .Collages{
+            height: 50vh;
+            width: 437px;
+            display: inline-block;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            color: rgb(250, 250, 250);
+            text-decoration: none;
+            text-align: center;
+            margin: 15px;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;  
+        }
+
+
+.branding, .collabrations, .articles {
+            height: 50vh;
+            width: 437px;
+            display: inline-block;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 15px;
+            padding: 20px 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease;
+
+        }
+
+        .Works {
+            background-image: url('images/IMG_7560.JPG'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .Photography {
+            background-image: url('images/IMG_7420.JPG'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .Collages {
+            background-image: url('images/IMG_7254.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .branding {
+            background-image: url('images/IMG_7159.JPG'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .collabrations {
+            background-image: url('images/IMG_7143.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .articles {
+            background-image: url('images/IMG_6679.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        h2 {
+            margin: 70;
+            text-align: center;
+            font-size: 3em;
+            line-height: 4.5em;
+            color: white;
+            
+            @font-face {
+                font-family:roboto ;
+                src: url(fonts/roboto-italic-webfont.woff2);
+            }
+        }
+
+        h2:hover{
+            transform: scale(1.1);
+            transition: all 0.5s ease-in-out;
+        }
+
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}

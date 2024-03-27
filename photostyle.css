@@ -1,0 +1,17 @@
+
+.gallery-item{
+    width: 23%; 
+    height: 23%;
+}
+.gallery-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+.gallery-item img:hover {
+    transform: scale(1.1); 
+}

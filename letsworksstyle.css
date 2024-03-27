@@ -1,0 +1,24 @@
+body{
+    background-image: url(images/DSC_0013.jpg);
+    size: 100;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contact-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+.contact-info h2 {
+    color: #333333;
+}
+.contact-info p {
+    margin: 15px 0;
+    color: #666666;
+}
